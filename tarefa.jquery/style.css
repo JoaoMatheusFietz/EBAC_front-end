@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: black;
+}
+
+#AdicionarTarefa {
+    margin-bottom: 20px;
+}
+
+#Entrada {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(31, 204, 31);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: 18px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: rgb(75, 75, 75);
+}
